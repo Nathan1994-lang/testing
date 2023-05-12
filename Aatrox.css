@@ -1,0 +1,14 @@
+h1, h2, h3, h4, div {
+    text-align: center;}
+.column {
+    float: left;
+    width: 25%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  div {
+    font-size: 40px;
+  }
